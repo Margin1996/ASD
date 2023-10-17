@@ -1,8 +1,8 @@
 # Aligning semantic distribution in fusing optical and SAR images for land use classification
 
-This is the core code of our [work](https://www.sciencedirect.com/science/article/pii/S0924271623000977) published in ISPRS J.
+This is the core code of our [work](https://www.sciencedirect.com/science/article/pii/S0924271623000977) published in ISPRS J. :kissing_heart:
 
-This article utilizes the *Semantic Distribution Alignment Loss* to align the semantic features of SAR and Optical modalities, facilitating the fusion of complementary information.
+This article utilizes the **Semantic Distribution Alignment Loss** to align the semantic features of SAR and Optical modalities, facilitating the fusion of complementary information.
 
 The fundamental concept behind this loss is that two distributions are considered identical if their statistics are the same. 
 
