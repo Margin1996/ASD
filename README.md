@@ -10,7 +10,7 @@ This loss quantifies the difference between feature distributions by mapping the
 
 For further details of this loss, please refer to "[A Kernel Method for the Two-Sample-Problem](https://proceedings.neurips.cc/paper_files/paper/2006/file/e9fb2eda3d9c55a0d89c98d6c54b5b3e-Paper.pdf)."
 
-![Image of FDA](https://github.com/WHUlwb/ASD/blob/main/network.png
+![Image of work](https://github.com/WHUlwb/ASD/blob/main/network.png)
 
 
 # Reference
