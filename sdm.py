@@ -1,6 +1,6 @@
-class MMD(nn.Module):
+class SDA(nn.Module):
     def __init__(self, kernel_mul = 2.0, kernel_num = 3):
-        super(MMD_loss, self).__init__()
+        super(SDA, self).__init__()
         self.kernel_num = kernel_num
         self.kernel_mul = kernel_mul
         self.fix_sigma = None
