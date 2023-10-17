@@ -4,7 +4,7 @@ class SDA(nn.Module):
         self.kernel_num = kernel_num
         self.kernel_mul = kernel_mul
         self.fix_sigma = None
-		
+	    
     def guassian_kernel(self, source, target, kernel_mul=2.0, kernel_num=3, fix_sigma=None):
         n_samples = int(source.size()[0])+int(target.size()[0])
         total = torch.cat([source, target], dim=0)
@@ -20,7 +20,6 @@ class SDA(nn.Module):
         bandwidth_list = [bandwidth * (kernel_mul**i) for i in range(kernel_num)]
         kernel_val = [torch.exp(-L2_distance / bandwidth_temp) for bandwidth_temp in bandwidth_list]
         return sum(kernel_val)
-
     def forward(self, source, target):
         batch_size = int(source.size()[0])
         kernels = self.guassian_kernel(source, target, kernel_mul=self.kernel_mul, kernel_num=self.kernel_num, fix_sigma=self.fix_sigma)
