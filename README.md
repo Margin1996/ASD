@@ -17,6 +17,15 @@ For further details of this loss, please refer to "[A Kernel Method for the Two-
 
 If the project is helpful to you, please consider citing us.
 ```
+@article{gretton2006kernel,
+  title={A kernel method for the two-sample-problem},
+  author={Gretton, Arthur and Borgwardt, Karsten and Rasch, Malte and Sch{\"o}lkopf, Bernhard and Smola, Alex},
+  journal={Advances in neural information processing systems},
+  volume={19},
+  year={2006}
+}
+```
+```
 @article{li2023aligning,
   title={Aligning semantic distribution in fusing optical and SAR images for land use classification},
   author={Li, Wangbin and Sun, Kaimin and Li, Wenzhuo and Wei, Jinjiang and Miao, Shunxia and Gao, Song and Zhou, Qinhui},
@@ -25,14 +34,5 @@ If the project is helpful to you, please consider citing us.
   pages={272--288},
   year={2023},
   publisher={Elsevier}
-}
-```
-```
-@article{gretton2006kernel,
-  title={A kernel method for the two-sample-problem},
-  author={Gretton, Arthur and Borgwardt, Karsten and Rasch, Malte and Sch{\"o}lkopf, Bernhard and Smola, Alex},
-  journal={Advances in neural information processing systems},
-  volume={19},
-  year={2006}
 }
 ```
